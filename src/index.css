@@ -1,8 +1,34 @@
-.mybox {
-  background-color: black;
-  width: 100px;
-  height: 100px;
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300;
+  height: 300;
   margin-left: auto;
   margin-right: auto;
   margin-top: 25vh;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.mybox {
+  width: 100px;
+  height: 100px;
+}
+
+.mybox1 {
+  background-color: black;
+}
+
+.mybox2 {
+  background-color: red;
 }
