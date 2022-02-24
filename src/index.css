@@ -1,0 +1,8 @@
+.mybox {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25vh;
+}
